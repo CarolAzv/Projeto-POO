@@ -1,1 +1,1 @@
-[{"id": 2, "descricao": "Mouse Microsoft", "preco": 100.0, "estoque": 9, "id_categoria": 1}, {"id": 1, "descricao": "Mouse Logitech", "preco": 71.25, "estoque": 7, "id_categoria": 1}]
+[{"id": 2, "descricao": "Mouse Microsoft", "preco": 100.0, "estoque": 9, "id_categoria": 1}, {"id": 3, "descricao": "Fones", "preco": 20.0, "estoque": 5, "id_categoria": 0}, {"id": 1, "descricao": "Mouse Logitech", "preco": 35.625, "estoque": 7, "id_categoria": 1}]

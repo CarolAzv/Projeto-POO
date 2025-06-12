@@ -1,7 +1,7 @@
 import json
 
 class Cliente:
-    def __init__(self, id, nome, email,senha, fone):
+    def __init__(self, id, nome, email, senha, fone):
         self.__id = id
         self.set_nome(nome)
         self.set_email(email)

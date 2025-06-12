@@ -59,6 +59,14 @@ class Produtos:  # Persistência - Armazena os objetos em um arquivo/banco de da
         return None
 
     @classmethod
+    def listar_descricao(cls, descricao):
+        cls.abrir()
+        for obj in cls.objetos:
+            if obj.get_descricao() == descricao:
+                return obj
+        return None
+
+    @classmethod
     def atualizar(cls, obj):
         x = cls.listar_id(obj.get_id())
         if x:
